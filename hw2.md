@@ -59,7 +59,7 @@ Go [here](https://westcentralus.dev.cognitive.microsoft.com/docs/services/5adf99
 ```
 https://eastus.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures="adult, faces"
 ```
-See **analyze_image_query.py** in this repo for access to Python code and a cURL to test this query out yourself.
+See **query_analyze_image.py** in this repo for access to Python code and a cURL to test this query out yourself.
 
 Request Body:
 ```
@@ -188,7 +188,7 @@ Go [here](https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778da
 ```
 https://eastus.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures="adult, faces"
 ```
-See **describe_image_query.py** in this repo for access to Python code and a cURL to test this query out yourself.
+See **query_describe_image_.py** in this repo for access to Python code and a cURL to test this query out yourself.
 
 Request Body:
 ```
@@ -257,7 +257,7 @@ The **OCR** query is a **POST** request that takes in an image URL or a raw imag
 ```
 'https://eastus.api.cognitive.microsoft.com/vision/v1.0/ocr?language=en&detectOrientation=true'
 ```
-See **ocr_query.py** in this repo for access to Python code and a cURL to test this query out yourself.
+See **query_ocr.py** in this repo for access to Python code and a cURL to test this query out yourself.
 
 ##### Request parameters
 
