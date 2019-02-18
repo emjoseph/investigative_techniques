@@ -24,7 +24,7 @@ querystring = {"language":"en","detectOrientation":"true"}
 
 payload = "{\n\t\"url\":\"http://www.techmynd.com/wp-content/uploads/2009/11/upside-down.jpg\"\n}"
 headers = {
-    'Ocp-Apim-Subscription-Key': 'b500a385168d44d0a2dd715d1f5d7c95',
+    'Ocp-Apim-Subscription-Key': '{KEY 1}',
     'Content-Type': "application/json",
     'cache-control': "no-cache",
     'Postman-Token': "444f62f2-b2f3-49da-a423-beebe7258cb3"

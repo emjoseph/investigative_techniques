@@ -25,7 +25,7 @@ querystring = {"maxCandidates":"2"}
 
 payload = "{\n\t\"url\":\"https://journalism.columbia.edu/files/soj/styles/flex_full/public/content/image/2018/09/dsc_7432_0.jpg\"\n}"
 headers = {
-    'Ocp-Apim-Subscription-Key': 'b500a385168d44d0a2dd715d1f5d7c95',
+    'Ocp-Apim-Subscription-Key': '{KEY 1}',
     'Content-Type': "application/json",
     'cache-control': "no-cache",
     'Postman-Token': "1a0a6e96-3c8e-4b88-9c29-d7f17a55e163"

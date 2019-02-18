@@ -24,7 +24,7 @@ querystring = {"visualFeatures":"adult,faces","details":"celebrities"}
 
 payload = "{\n\t\"url\":\"https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/16/105332385-1531754604468rtx6bmp1.530x298.jpg?v=1531754709\"\n}"
 headers = {
-    'Ocp-Apim-Subscription-Key': "b500a385168d44d0a2dd715d1f5d7c95",
+    'Ocp-Apim-Subscription-Key': '{KEY_1}'},
     'Content-Type': "application/json",
     'cache-control': "no-cache",
     'Postman-Token': "2e853700-6e6d-40ad-9172-3da5b70f161e"
