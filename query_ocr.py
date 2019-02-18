@@ -27,7 +27,6 @@ headers = {
     'Ocp-Apim-Subscription-Key': '{KEY 1}',
     'Content-Type': "application/json",
     'cache-control': "no-cache",
-    'Postman-Token': "444f62f2-b2f3-49da-a423-beebe7258cb3"
     }
 
 response = requests.request("POST", url, data=payload, headers=headers, params=querystring)

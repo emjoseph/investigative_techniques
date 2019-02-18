@@ -67,10 +67,9 @@ querystring = {"visualFeatures":"adult,%20faces","details":"celebrities"}
 
 payload = "{\n\t\"url\":\"https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/16/105332385-1531754604468rtx6bmp1.530x298.jpg?v=1531754709\"\n}"
 headers = {
-    'Ocp-Apim-Subscription-Key': "b500a385168d44d0a2dd715d1f5d7c95",
+    'Ocp-Apim-Subscription-Key': {KEY_1}',
     'Content-Type': "application/json",
     'cache-control': "no-cache",
-    'Postman-Token': "1321c4e5-1633-43a0-b920-1987ce9141c4"
     }
 
 response = requests.request("POST", url, data=payload, headers=headers, params=querystring)
@@ -107,7 +106,6 @@ headers = {
     'Ocp-Apim-Subscription-Key': {KEY_1},
     'Content-Type': "application/json",
     'cache-control': "no-cache",
-    'Postman-Token': "1a0a6e96-3c8e-4b88-9c29-d7f17a55e163"
     }
 
 response = requests.request("POST", url, data=payload, headers=headers, params=querystring)
@@ -144,7 +142,6 @@ headers = {
     'Ocp-Apim-Subscription-Key': {KEY_1},
     'Content-Type': "application/json",
     'cache-control': "no-cache",
-    'Postman-Token': "444f62f2-b2f3-49da-a423-beebe7258cb3"
     }
 
 response = requests.request("POST", url, data=payload, headers=headers, params=querystring)
