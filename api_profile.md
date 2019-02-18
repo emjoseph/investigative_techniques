@@ -56,7 +56,7 @@ The **analyze image** query is a **POST** request that takes in an image URL or 
 Go [here](https://westcentralus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa) for more information on these request parameter and their supported values.
 
 ##### Example Query
-See <u>query_analyze_image.py</u> in this repo for access to Python code and a cURL to test this query out.
+See *query_analyze_image.py* in this repo for access to Python code and a cURL to test this query out.
 ```
 https://eastus.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures="adult, faces"
 ```
@@ -173,7 +173,7 @@ The JSON returned below has detected that Donald Trump and Vladmir Putin are in 
 The **describe image** query is a **POST** request that takes in an image URL or a raw image binary through the request body and are returns a readable text description of the image along with a collection of content tags.
 
 ##### Example Query
-See <u>query_describe_image_.py</u> in this repo for access to Python code and a cURL to test this query out.
+See *query_describe_image_.py* in this repo for access to Python code and a cURL to test this query out.
 ```
 'https://eastus.api.cognitive.microsoft.com/vision/v2.0/describe'
 ```
@@ -248,7 +248,7 @@ The JSON returned below contains two text captions that describe the image in re
 The **OCR** query is a **POST** request that takes in an image URL or a raw image binary data through the request body and returns the words recognized in order with bounding box information.
 
 ##### Example Query
-See <u>query_ocr.py</u> in this repo for access to Python code and a cURL to test this query out.
+See *query_ocr.py* in this repo for access to Python code and a cURL to test this query out.
 ```
 'https://eastus.api.cognitive.microsoft.com/vision/v1.0/ocr?language=en&detectOrientation=true'
 ```
