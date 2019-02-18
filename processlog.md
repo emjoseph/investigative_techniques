@@ -151,3 +151,17 @@ response = requests.request("POST", url, data=payload, headers=headers, params=q
 
 print(response.text)
 ```
+
+### References
+
+* https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/
+* https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa`
+* https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/
+* https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/
+* https://azure.microsoft.com/en-us/free/students/
+* https://eastus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fa
+* https://cognitive.uservoice.com/knowledgebase/articles/1141621-api-translator-text-speech-why-are-there-two
+* https://blogs.msdn.microsoft.com/mast/2013/11/06/why-does-an-azure-storage-account-have-two-access-keys/
+* https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fa
+* https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fe
+* https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fc
