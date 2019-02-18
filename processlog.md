@@ -36,6 +36,11 @@ emj2152
 
 * Used Postman's code export functionality to generate cURLs for the example queries shown in API profile document. I'm attaching the cURLs and Python 3 code below if readers want to reproduce them. Make sure to replace the {KEY_1} placeholder with your `KEY 1` security key. Readers can run the cURL commands by pasting them in any terminal utility and pressing enter.
 
+* Googled `microsoft azure why do i have 2 keys vision api` and clicked on the first result which led me [here](https://cognitive.uservoice.com/knowledgebase/articles/1141621-api-translator-text-speech-why-are-there-two). Clicked on the redirect link on that page which took me [here](https://www.microsoft.com/en-us/translator/business/faq/#development). Read up on why there were two security keys provided for the API.
+
+* Googled `azure two access keys?` and clicked on the first result which led me [here](https://blogs.msdn.microsoft.com/mast/2013/11/06/why-does-an-azure-storage-account-have-two-access-keys/). Read more information on why Microsoft Azure provides two access keys to their APIs.
+
+
 ### Analyze Image Endpoint Test Query
 
 Make sure to replace the {KEY_1} placeholder with your `KEY 1` security key.
